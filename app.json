@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Brote",
+    "name": "BroteThomas",
     "slug": "brote-planificador",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,10 @@
     "backgroundColor": "#F8F5ED",
     "ios": {
       "bundleIdentifier": "edu.uets.brote.demo",
-      "icon": "./assets/images/icon.png"
+      "icon": "./assets/images/icon.png",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "edu.uets.brote.demo",
@@ -46,7 +49,10 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "949094ab-8fdb-48e5-b5d1-f4a58a867dc8"
+      }
     }
   }
 }
