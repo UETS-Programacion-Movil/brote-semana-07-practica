@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Brote",
-    "slug": "brote-planificador",
+    "name": "Brote-JECA",
+    "slug": "brote-jeca",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -46,7 +46,10 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "6bdd3a37-8857-4156-8ed6-56c4fa569835"
+      }
     }
   }
 }
