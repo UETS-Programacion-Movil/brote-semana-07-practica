@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Brote",
+    "name": "Brote Martina",
     "slug": "brote-planificador",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -46,7 +46,11 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "fc3c3f25-157f-4aec-a9bb-8ee54e94de56"
+      }
+    },
+    "owner": "martina_ruiz"
   }
 }
